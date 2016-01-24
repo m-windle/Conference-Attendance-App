@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_camara" android:icon="@android:drawable/ic_menu_camera"
+            android:title="Import" />
+        <item android:id="@+id/nav_gallery" android:icon="@android:drawable/ic_menu_gallery"
+            android:title="Gallery" />
+        <item android:id="@+id/nav_slideshow" android:icon="@android:drawable/ic_menu_slideshow"
+            android:title="Slideshow" />
+        <item android:id="@+id/nav_manage" android:icon="@android:drawable/ic_menu_manage"
+            android:title="Tools" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item android:id="@+id/nav_share" android:icon="@android:drawable/ic_menu_share"
+                android:title="Share" />
+            <item android:id="@+id/nav_send" android:icon="@android:drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item> -->
+
+    <item android:id="@+id/twitterTab" android:icon="@android:drawable/ic_dialog_alert"
+        android:title="Twitter Feed" />
+    <item android:id="@+id/mapsTab" android:icon="@android:drawable/ic_dialog_map"
+        android:title="Maps/PoI" />
+
+    <item android:title="General Info">
+        <menu>
+            <item android:id="@+id/scheduleTab" android:icon="@android:drawable/ic_menu_my_calendar"
+                android:title="Schedule" />
+            <item android:id="@+id/peopleTab" android:icon="@android:drawable/ic_menu_myplaces"
+                android:title="People" />
+        </menu>
+    </item>
+
+    <item android:title="Conference">
+        <menu>
+            <item android:id="@+id/surveyTab" android:icon="@android:drawable/ic_menu_help"
+                android:title="Surveys" />
+            <item android:id="@+id/leaderboardTab" android:icon="@android:drawable/ic_menu_sort_by_size"
+                android:title="Leaderboard" />
+        </menu>
+    </item>
+</menu>
